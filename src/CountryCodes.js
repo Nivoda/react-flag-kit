@@ -143,6 +143,7 @@ export default [
   "MC",
   "MD",
   "ME",
+  "MF",
   "MG",
   "MH",
   "MK",
