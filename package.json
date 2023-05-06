@@ -1,6 +1,6 @@
 {
   "name": "@nivoda/react-flag-kit",
-  "version": "0.2.4-cassiopeia",
+  "version": "0.2.5",
   "description": "FlagKit for React",
   "main": "lib/index.js",
   "repository": "https://github.com/umidbekkarimov/react-flag-kit.git",

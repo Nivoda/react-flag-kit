@@ -15,5 +15,11 @@ export default function FlagIcon({ code, ...props }) {
   // eslint-disable-next-line global-require, import/no-dynamic-require
   const src = require(`../assets/${code}.svg`);
 
-  return <Flag {...props} src={typeof src === 'object' ? src.default : src} alt={code} />;
+  return (
+    <Flag
+      {...props}
+      src={typeof src === "object" ? src.default : src}
+      alt={code}
+    />
+  );
 }
